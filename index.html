@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/0dc6d99b5d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Slicing Demo</title>
+  </head>
+
+  <body class="bg-sky-50">
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center container mx-auto py-6 px-8">
+      <img
+        src="../figma-community-slicing-demo/assets/main-logo.png"
+        alt="logo"
+        class="mx-auto md:mx-0"
+      />
+      <div class="flex gap-6 poppins-semibold text-base">
+        <!-- Desktop Navbar -->
+        <button class="text-teal-600 hidden md:hidden xl:inline">
+          <a href="#">Contact</a>
+        </button>
+        <button
+          class="bg-green-100 px-8 py-4 rounded-xl text-teal-600 hidden sm:inline md:inline"
+        >
+          <a href="#">How it Works</a>
+        </button>
+        <button
+          class="bg-teal-600 text-gray-100 px-8 py-4 rounded-xl hidden md:hidden xl:inline"
+        >
+          <a href="#" class="flex items-center gap-2">
+            <img
+              src="assets/RocketLaunch.png"
+              alt="rocket"
+              class="w-5 h-5"
+            />Get Started
+          </a>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section>
+      <div
+        class="container mx-auto pt-12 xl:py-24 px-8 flex flex-col md:flex-col xl:flex-row"
+      >
+        <div class="xl:w-1/2 content-center">
+          <h1
+            class="text-3xl md:text-5xl xl:text-6xl mb-5 poppins-bold text-center md:text-center xl:text-left text-balance"
+          >
+            Create Engaging <br />
+            Landing Pages
+          </h1>
+          <h4
+            class="poppins-normal text-gray-600 text-center md:text-center xl:text-left xl:text-xl text-sm text-balance"
+          >
+            Build beautiful landing pages in record time with
+            <span class="text-blue-400">Anima</span>’s Landing <br />
+            Page UI kit for Figma. No code required!
+          </h4>
+          <div
+            class="container mx-auto mt-10 gap-4 flex justify-center md:justify-center xl:justify-start poppins-semibold"
+          >
+            <button class="bg-teal-600 text-gray-100 px-8 py-4 rounded-xl">
+              <a href="#" class="flex items-center gap-2">
+                <img
+                  src="assets/RocketLaunch.png"
+                  alt="rocket"
+                  class="w-5 h-5"
+                />Get Started
+              </a>
+            </button>
+            <button
+              class="bg-green-100 px-8 py-4 rounded-xl text-teal-600 hidden md:hidden xl:inline"
+            >
+              <a href="#">How it Works</a>
+            </button>
+          </div>
+        </div>
+        <div
+          class="xl:w-1/2 justify-center md:justify-center xl:justify-end flex mt-10 md:mt-10 xl:mt-0"
+        >
+          <img
+            src="./assets/Visual-image.png"
+            class="md:w-[450px] md:h-[450px]"
+            alt="visual-image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Logo Bar -->
+    <section>
+      <div class="container mx-auto px-8 py-10">
+        <div
+          class="items-center grid grid-cols-3 gap-6 md:flex md:justify-between"
+        >
+          <img src="./assets/logo/airbnb.png" alt="airbnb" />
+          <img src="./assets/logo/google.png" alt="google" />
+          <img src="./assets/logo/amazon.png" alt="amazon" />
+          <img src="./assets/logo/microsoft.png" alt="microsoft" />
+          <img src="./assets/logo/fedex.png" alt="fedex" />
+          <img src="./assets/logo/hubspot.png" alt="hubspot" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section>
+      <div class="mx-auto container px-4 py-24">
+        <div class="flex justify-center items-center flex-col gap-4">
+          <h1 class="text-4xl poppins-bold text-center">Features</h1>
+          <h4 class="text-gray-600 poppins-normal text-center">
+            These are just a few features you’ll get using Anima Landing Page Ui
+            Kit.
+          </h4>
+        </div>
+        <div class="grid mt-15 gap-6 xl:grid-cols-3">
+          <div
+            class="bg-white rounded-2xl max-w-max px-10 py-16 flex flex-col justify-center items-center gap-4 shadow-md"
+          >
+            <img
+              src="./assets/features-card/Icon1.png"
+              alt="icon1-logo"
+              class="w-20 h-20"
+            />
+            <h1 class="poppins-semibold text-xl md:text-2xl text-center">
+              Fast building
+            </h1>
+            <p class="text-gray-600 poppins-normal text-center text-base">
+              Tailor Anima's Landing Page UI Kit to your unique style and brand
+              with customisable components, in no time!
+            </p>
+            <div class="flex flex-row items-center gap-2">
+              <a href="#" class="text-teal-600 poppins-semibold">Learn More</a
+              ><i class="fa-solid fa-arrow-right text-teal-600"></i>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-2xl max-w-max px-10 py-16 flex flex-col justify-center items-center gap-4 shadow-md"
+          >
+            <img
+              src="./assets/features-card/Icon2.png"
+              alt="icon2-logo"
+              class="w-20 h-20"
+            />
+            <h1 class="poppins-semibold text-xl md:text-2xl text-center">
+              Responsive Design
+            </h1>
+            <p class="text-gray-600 poppins-medium text-center text-base">
+              No need to worry about screen size. Anima's Landing Page UI Kit
+              adapts to any screen size, from desktop to mobile.
+            </p>
+            <div class="flex flex-row items-center gap-2">
+              <a href="#" class="text-teal-600 poppins-semibold">Learn More</a
+              ><i class="fa-solid fa-arrow-right text-teal-600"></i>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-2xl max-w-max px-10 py-16 flex flex-col justify-center items-center gap-4 shadow-md"
+          >
+            <img
+              src="./assets/features-card/Icon3.png"
+              alt="icon3-logo"
+              class="w-20 h-20"
+            />
+            <h1 class="poppins-semibold text-xl md:text-2xl text-center">
+              No Code Needed
+            </h1>
+            <p class="text-gray-600 poppins-medium text-center text-base">
+              Zero coding skills required, Anima's Landing Page UI Kit empowers
+              you to create stunning landing pages with ease.
+            </p>
+            <div class="flex flex-row items-center gap-2">
+              <a href="#" class="text-teal-600 poppins-semibold">Learn More</a
+              ><i class="fa-solid fa-arrow-right text-teal-600"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Metric Section -->
+    <section>
+      <div class="container mx-auto px-4 py-10">
+        <div class="flex justify-center items-center flex-col gap-4">
+          <h1 class="poppins-bold text-4xl text-center">
+            Our Metrics Tell the Story
+          </h1>
+          <h4 class="text-gray-600 poppins-medium text-center">
+            Our metrics component gives you the inside scoop on your success and
+            helps you stay on top of your game in style.
+          </h4>
+        </div>
+        <div
+          class="grid max-w-max grid-cols-2 pt-15 gap-6 md:grid-cols-4 xl:max-w-max"
+        >
+          <div
+            class="bg-white px-8 xl:px-12 py-8 rounded-t-2xl shadow-md border-b-red-400 border-b-2 flex flex-col gap-2"
+          >
+            <h1 class="text-xl poppins-bold text-center xl:text-3xl">10k+</h1>
+            <h4
+              class="text-center text-gray-700 text-xs md:text-base xl:text-lg"
+            >
+              Website Launched
+            </h4>
+          </div>
+          <div
+            class="bg-white px-8 py-8 rounded-t-2xl shadow-md border-b-red-400 border-b-2 flex flex-col gap-2"
+          >
+            <h1 class="text-xl poppins-bold text-center xl:text-3xl">931k+</h1>
+            <h4
+              class="text-center text-gray-700 text-xs md:text-base xl:text-lg"
+            >
+              Projects created with Anima
+            </h4>
+          </div>
+          <div
+            class="bg-white px-8 py-8 rounded-t-2xl shadow-md border-b-red-400 border-b-2 flex flex-col gap-2"
+          >
+            <h1 class="text-xl poppins-bold text-center xl:text-3xl">240k+</h1>
+            <h4
+              class="text-center text-gray-700 text-xs md:text-base xl:text-lg"
+            >
+              New users joined Anima
+            </h4>
+          </div>
+          <div
+            class="bg-white px-8 py-8 rounded-t-2xl shadow-md border-b-red-400 border-b-2 flex flex-col gap-2"
+          >
+            <h1 class="text-xl poppins-bold text-center xl:text-3xl">12k+</h1>
+            <h4
+              class="text-center text-gray-700 text-xs md:text-base xl:text-lg"
+            >
+              Teams used Anima
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Second Hero Section -->
+    <section>
+      <div class="container mx-auto px-4 py-10 gap-6 md:flex">
+        <div class="md:w-1/2">
+          <img
+            src="./assets/Visual-image-2.png"
+            alt="visual-image-2"
+            class="md:w-[320px] md:h-[266.67px] xl:w-max xl:h-max"
+          />
+        </div>
+        <div class="md:w-1/2 content-center">
+          <h1
+            class="text-2xl poppins-bold mb-4 text-center md:text-left xl:text-5xl"
+          >
+            Get Landing Page UI Kit Today!
+          </h1>
+          <h4
+            class="poppins-medium text-gray-600 text-sm text-center md:text-left mdbase xl:text-xl"
+          >
+            Break the Figma limits and explore the endless possibilities with
+            Anima.
+          </h4>
+          <div class="flex justify-center md:justify-start">
+            <button
+              class="bg-teal-600 text-gray-100 px-10 py-4 rounded-xl flex items-center gap-2 mt-6 poppins-semibold"
+            >
+              <a href="#"> Get Started </a>
+              <i class="fa-solid fa-arrow-right text-gray-100"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section>
+      <div class="container mx-auto px-4 py-10">
+        <div class="flex flex-col justify-center items-center gap-4">
+          <h1 class="text-4xl text-center poppins-bold max-w-lg">
+            Real Stories from Satisfied Customers
+          </h1>
+          <p class="text-gray-600 poppins-medium text-base text-center">
+            See how our landing page ui kit is making an impact.
+          </p>
+        </div>
+        <div class="grid grid-rows-1 mt-8 gap-6 xl:grid-cols-3">
+          <div
+            class="bg-white rounded-2xl px-8 py-10 shadow-md flex flex-col md:flex-row xl:flex-col justify-center items-center"
+          >
+            <div class="md:w-1/2 flex flex-col justify-center items-center">
+              <img
+                src="./assets/testimoni-card/Photo1.png"
+                alt="photo1"
+                class="md:w-16 md:h-16 xl:w-24 xl:h-24 rounded-full mb-5"
+              />
+              <h1 class="text-2xl poppins-bold mb-2">Sarah K.</h1>
+              <h4 class="text-base text-gray-600">UX Designer @Brello</h4>
+            </div>
+            <div class="md:w-1/2 xl:w-auto flex flex-col justify-center">
+              <p
+                class="text-base text-center xl:max-h-max md:text-left xl:text-center mt-6 text-gray-600"
+              >
+                "I was looking for a way to streamline my design process and the
+                Anima’s Landing Page UI Kit was a lifesaver! The intuitive
+                design and ease of customisation have saved me hours of time and
+                effort. Highly recommend!"
+              </p>
+              <div
+                class="flex gap-1 mt-4 text-2xl text-yellow-500 justify-center md:justify-start xl:justify-center"
+              >
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-2xl px-8 py-10 shadow-md flex flex-col md:flex-row xl:flex-col justify-center items-center"
+          >
+            <div class="md:w-1/2 flex flex-col justify-center items-center">
+              <img
+                src="./assets/testimoni-card/Photo2.png"
+                alt="photo2"
+                class="md:w-16 md:h-16 xl:w-24 xl:h-24 rounded-full mb-5"
+              />
+              <h1 class="text-2xl poppins-bold mb-2">Michael L.</h1>
+              <h4 class="text-base text-gray-600">Creative Director @Yo</h4>
+            </div>
+            <div class="md:w-1/2 xl:w-auto flex flex-col justify-center">
+              <p
+                class="text-base text-center xl:max-h-max md:text-left xl:text-center mt-6 text-gray-600"
+              >
+                “The Landing Page UI Kit has been a game changer for my agency.
+                The pre-designed components and templates have helped us deliver
+                projects faster and with more consistency. Great job!"
+              </p>
+              <div
+                class="flex gap-1 mt-4 text-2xl text-yellow-500 justify-center md:justify-start xl:justify-center"
+              >
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-2xl px-8 py-10 shadow-md flex flex-col md:flex-row xl:flex-col justify-center items-center"
+          >
+            <div class="md:w-1/2 flex flex-col justify-center items-center">
+              <img
+                src="./assets/testimoni-card/Photo3.png"
+                alt="photo3"
+                class="md:w-16 md:h-16 xl:w-24 xl:h-24 rounded-full mb-5"
+              />
+              <h1 class="text-2xl poppins-bold mb-2">Lauren M.</h1>
+              <h4 class="text-base text-gray-600">UI Designer @Boo</h4>
+            </div>
+            <div class="md:w-1/2 xl:w-auto flex flex-col justify-center">
+              <p
+                class="text-base text-center xl:max-h-max md:text-left xl:text-center mt-6 text-gray-600"
+              >
+                "Anima’s Landing Page UI Kit has become a staple in my design
+                toolkit. Whether I'm working on a new project or need to make
+                updates to an existing one, this kit has everything I need to
+                get the job done quickly and efficiently."
+              </p>
+              <div
+                class="flex gap-1 mt-4 text-2xl text-yellow-500 justify-center md:justify-start xl:justify-center"
+              >
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section>
+      <div class="mx-auto container px-4 py-10">
+        <div class="flex justify-center items-center flex-col gap-4">
+          <h1 class="poppins-bold text-3xl md:text-4xl text-center">
+            Pick Your Perfect Plan
+          </h1>
+          <h4 class="text-gray-600 poppins-medium text-center text-base">
+            Find the perfect plan for your business with our flexible pricing
+            options.
+          </h4>
+        </div>
+        <div class="grid grid-rows-1 xl:grid-cols-3 gap-6 mt-12">
+          <div class="bg-white rounded-2xl shadow-md px-8 py-10">
+            <p class="text-gray-600 poppins-medium text-xl mb-4">Free</p>
+            <div class="flex flex-row items-end gap-2">
+              <p class="poppins-bold text-5xl">$0</p>
+              <p class="poppins-semibold text-base text-gray-800">/ month</p>
+            </div>
+            <p class="text-gray-600 poppins-normal text-sm mt-4">
+              Best for Small Teams or Individuals.
+            </p>
+            <div class="mt-6">
+              <ul
+                class="gap-2 flex flex-col text-black poppins-medium md:text-lg text-xs xl:text-base"
+              >
+                <li>
+                  <i class="fa-solid fa-check text-teal-600 pr-2"></i>Write
+                  feature details here
+                </li>
+                <li>
+                  <i class="fa-solid fa-check text-teal-600 pr-2"></i>Write
+                  feature details here
+                </li>
+                <li>
+                  <i class="fa-solid fa-check text-teal-600 pr-2"></i>Write
+                  feature details here
+                </li>
+              </ul>
+            </div>
+            <div class="flex justify-center items-center mt-6 w-full">
+              <button
+                class="bg-green-100 px-16 md:px-68 xl:px-32 py-4 rounded-xl text-teal-600"
+              >
+                <a href="#" class="poppins-semibold text-xs md:text-sm"
+                  >Get Started</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="bg-white rounded-2xl shadow-md px-8 py-10">
+            <p class="text-gray-600 poppins-medium text-xl mb-4">
+              Professional
+            </p>
+            <div class="flex flex-row items-end gap-2">
+              <p class="poppins-bold text-5xl">$19</p>
+              <p class="poppins-semibold text-base text-gray-800">/ month</p>
+            </div>
+            <p class="text-gray-600 poppins-normal text-sm mt-4">
+              Best for Small Teams or Individuals.
+            </p>
+            <div class="mt-6">
+              <ul
+                class="gap-2 flex flex-col text-black poppins-medium md:text-lg text-xs xl:text-base"
+              >
+                <li>
+                  <i class="fa-solid fa-check text-teal-600 pr-2"></i>Write
+                  feature details here
+                </li>
+                <li>
+                  <i class="fa-solid fa-check text-teal-600 pr-2"></i>Write
+                  feature details here
+                </li>
+                <li>
+                  <i class="fa-solid fa-check text-teal-600 pr-2"></i>Write
+                  feature details here
+                </li>
+              </ul>
+            </div>
+            <div class="flex justify-center items-center mt-6 w-full">
+              <button
+                class="bg-green-100 px-16 md:px-68 xl:px-32 py-4 rounded-xl text-teal-600"
+              >
+                <a href="#" class="poppins-semibold text-xs md:text-sm"
+                  >Get Started</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="bg-teal-600 rounded-2xl shadow-md px-8 py-10">
+            <p class="text-white poppins-medium text-xl mb-4">Enterprise</p>
+            <div class="flex flex-row items-end gap-2 text-white">
+              <p class="poppins-bold text-5xl">$49</p>
+              <p class="poppins-medium text-base">/ month</p>
+            </div>
+            <p class="text-white poppins-normal text-base mt-4">
+              Best for Small Teams or Individuals.
+            </p>
+            <div class="mt-6">
+              <ul
+                class="gap-2 flex flex-col text-white poppins-medium md:text-lg text-xs xl:text-base"
+              >
+                <li>
+                  <i class="fa-solid fa-check pr-2"></i>Write feature details
+                  here
+                </li>
+                <li>
+                  <i class="fa-solid fa-check pr-2"></i>Write feature details
+                  here
+                </li>
+                <li>
+                  <i class="fa-solid fa-check pr-2"></i>Write feature details
+                  here
+                </li>
+              </ul>
+            </div>
+            <div class="flex justify-center items-center mt-6 w-full">
+              <button
+                class="bg-white px-16 md:px-68 xl:px-28 py-4 rounded-xl text-teal-600 flex items-center gap-2"
+              >
+                <a href="#" class="poppins-semibold text-xs md:text-sm"
+                  >Get Started</a
+                ><i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section>
+      <div class="container mx-auto px-4 py-12">
+        <div class="flex justify-center items-center flex-col gap-4">
+          <h1 class="text-4xl poppins-bold">Meet our team</h1>
+          <h4 class="poppins-medium text-base text-gray-600 text-center">
+            Get to know the faces behind the scenes and learn about the values
+            that drive us.
+          </h4>
+        </div>
+        <div class="grid grid-rows-1 md:grid-cols-3 mt-8 gap-6">
+          <div class="bg-white rounded-2xl shadow-md">
+            <img
+              src="./assets/team-card/profile1.png"
+              alt="profile1"
+              class="w-full"
+            />
+            <div
+              class="px-8 py-6 flex flex-col items-center gap-1 border border-b-2 border-gray-200"
+            >
+              <h1 class="poppins-bold text-2xl">Sarah K.</h1>
+              <h4 class="poppins-medium text--base text-gray-600">
+                UX Designer
+              </h4>
+            </div>
+            <div class="flex justify-center items-center gap-2 flex-row m-6">
+              <button class="bg-sky-100 w-10 h-10 rounded-full">
+                <a href="#"><i class="fa-brands fa-twitter text-md"></i></a>
+              </button>
+              <button class="bg-sky-100 w-10 h-10 rounded-full">
+                <a href="#"><i class="fa-brands fa-dribbble text-md"></i></a>
+              </button>
+              <button class="bg-sky-100 w-10 h-10 rounded-full">
+                <a href="#"><i class="fa-brands fa-instagram text-md"></i></a>
+              </button>
+            </div>
+          </div>
+          <div class="bg-white rounded-2xl shadow-md">
+            <img
+              src="./assets/team-card/profile2.png"
+              alt="profile2"
+              class="w-full"
+            />
+            <div
+              class="px-8 py-6 flex flex-col items-center gap-1 border border-b-2 border-gray-200"
+            >
+              <h1 class="poppins-bold text-2xl">Michael L.</h1>
+              <h4 class="poppins-medium text--base text-gray-600">
+                Lead Designer
+              </h4>
+            </div>
+            <div class="flex justify-center items-center gap-2 flex-row m-6">
+              <button class="bg-sky-100 w-10 h-10 rounded-full">
+                <a href="#"><i class="fa-brands fa-twitter text-md"></i></a>
+              </button>
+              <button class="bg-sky-100 w-10 h-10 rounded-full">
+                <a href="#"><i class="fa-brands fa-dribbble text-md"></i></a>
+              </button>
+              <button class="bg-sky-100 w-10 h-10 rounded-full">
+                <a href="#"><i class="fa-brands fa-instagram text-md"></i></a>
+              </button>
+            </div>
+          </div>
+          <div class="bg-white rounded-2xl shadow-md">
+            <img
+              src="./assets/team-card/profile3.png"
+              alt="profile3"
+              class="w-full"
+            />
+            <div
+              class="px-8 py-6 flex flex-col items-center gap-1 border border-b-2 border-gray-200"
+            >
+              <h1 class="poppins-bold text-2xl">Lauren M.</h1>
+              <h4 class="poppins-medium text--base text-gray-600">
+                Product Designer
+              </h4>
+            </div>
+            <div class="flex justify-center items-center gap-2 flex-row m-6">
+              <button class="bg-sky-100 w-10 h-10 rounded-full">
+                <a href="#"><i class="fa-brands fa-twitter text-md"></i></a>
+              </button>
+              <button class="bg-sky-100 w-10 h-10 rounded-full">
+                <a href="#"><i class="fa-brands fa-dribbble text-md"></i></a>
+              </button>
+              <button class="bg-sky-100 w-10 h-10 rounded-full">
+                <a href="#"><i class="fa-brands fa-instagram text-md"></i></a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Third Hero Section -->
+    <section>
+      <div class="container mx-auto px-4 py-12">
+        <div
+          class="bg-rose-200 rounded-2xl flex flex-col md:flex-row xl:flex-row"
+        >
+          <div
+            class="md:w-1/2 flex flex-col gap-4 px-4 py-8 md:p-10 md:self-center xl:self-center"
+          >
+            <h1
+              class="text-2xl md:text-4xl xl:text-5xl md:text-left poppins-bold leading-snug text-neutral-800 text-center"
+            >
+              Get Landing Page <br />
+              UI Kit Today!
+            </h1>
+            <p
+              class="text-md xl:text-xl md:text-left md:text-base text-center text-neutral-800"
+            >
+              Break the Figma limits and explore the endless possibilities with
+              Anima.
+            </p>
+            <div class="mt-4 flex justify-center md:justify-start">
+              <button
+                class="bg-teal-600 px-14 py-4 rounded-xl text-white flex items-center gap-2"
+              >
+                <a href="#" class="poppins-semibold text-sm">Get Started</a
+                ><i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="md:w-1/2 flex justify-end">
+            <img
+              src="./assets/mockup-desktop.png"
+              alt="mockup-desktop"
+              class="w-[584px] h-[434px] hidden md:hidden xl:inline"
+            />
+            <img
+              src="./assets/mockup-tablet.png"
+              alt="mockup-tablet"
+              class="w-full h-full hidden md:inline xl:hidden"
+            />
+            <img
+              src="./assets/mockup-mobile.png"
+              alt="mockup-mobile"
+              class="w-full h-full inline md:hidden xl:hidden"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form Section -->
+    <section>
+      <div class="container mx-auto px-4 py-12">
+        <div class="bg-white shadow-md rounded-2xl p-10">
+          <div class="flex flex-col gap-2">
+            <h1 class="poppins-bold text-4xl">Let’s get in touch!</h1>
+            <h4 class="text-gray-600 text-sm">
+              Got questions about the Landing Page UI Kit? Our team is here to
+              help. Contact us for quick and friendly support.
+            </h4>
+          </div>
+          <div class="xl:flex">
+            <div class="xl:w-1/2 mt-10">
+              <div class="flex gap-2 flex-col">
+                <div class="flex gap-2 items-center">
+                  <i class="fa-solid fa-phone-volume text-teal-600"></i>
+                  <p class="text-gray-600 text-md">+012 345 6789</p>
+                </div>
+                <div class="flex gap-2 items-center">
+                  <i class="fa-duotone fa-solid fa-envelope text-teal-600"></i>
+                  <p class="text-gray-600 text-md">Hello@animaapp.com</p>
+                </div>
+              </div>
+              <div class="poppins-semibold text-2xl mt-14">
+                <h1>Connect with us</h1>
+              </div>
+              <div class="mt-4 flex flex-row gap-2">
+                <button class="bg-sky-100 w-10 h-10 rounded-full">
+                  <a href="#"><i class="fa-brands fa-instagram text-md"></i></a>
+                </button>
+                <button class="bg-sky-100 w-10 h-10 rounded-full">
+                  <a href="#"><i class="fa-brands fa-dribbble text-md"></i></a>
+                </button>
+                <button class="bg-sky-100 w-10 h-10 rounded-full">
+                  <a href="#"><i class="fa-brands fa-behance text-md"></i></a>
+                </button>
+                <button class="bg-sky-100 w-10 h-10 rounded-full">
+                  <a href="#"><i class="fa-brands fa-twitter text-md"></i></a>
+                </button>
+              </div>
+            </div>
+            <div class="xl:w-1/2 mt-10">
+              <form class="flex flex-col gap-2">
+                <div
+                  class="flex items-center gap-2 pl-4 px-4 py-2 border-2 border-gray-300 w-full rounded-2xl"
+                >
+                  <i
+                    class="fa-solid fa-user border-r-2 border-gray-300 pr-2 text-teal-600"
+                  ></i>
+                  <input
+                    type="text"
+                    placeholder="Full Name"
+                    class="border-0 w-full py-2 rounded-2xl focus:outline-none"
+                  />
+                </div>
+                <div
+                  class="flex items-center gap-2 pl-4 px-4 py-2 border-2 border-gray-300 w-full rounded-2xl"
+                >
+                  <i
+                    class="fa-duotone fa-solid fa-envelope border-r-2 border-gray-300 pr-2 text-teal-600"
+                  ></i>
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    class="border-0 w-full py-2 rounded-2xl focus:outline-none"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="submit"
+                    value="Submit"
+                    class="bg-teal-600 px-10 cursor-pointer py-4 rounded-2xl text-white poppins-semibold text-base mt-2"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-950">
+      <div class="container mx-auto px-4 py-8">
+        <div class="items-center justify-between hidden md:flex ">
+          <h1 class="text-white text-sm">
+            © 2023 Anima’s Landing Page Ui Kit.
+          </h1>
+          <div class="flex flex-row gap-2 items-center">
+            <button class="bg-gray-800 w-10 h-10 rounded-full">
+              <a href="#"
+                ><i class="fa-brands fa-instagram text-md text-white"></i
+              ></a>
+            </button>
+            <button class="bg-gray-800 w-10 h-10 rounded-full">
+              <a href="#"
+                ><i class="fa-brands fa-dribbble text-md text-white"></i
+              ></a>
+            </button>
+            <button class="bg-gray-800 w-10 h-10 rounded-full">
+              <a href="#"
+                ><i class="fa-brands fa-github text-md text-white"></i
+              ></a>
+            </button>
+            <button class="bg-gray-800 w-10 h-10 rounded-full">
+              <a href="#"
+                ><i class="fa-brands fa-linkedin text-md text-white"></i
+              ></a>
+            </button>
+          </div>
+        </div>
+        <div class="flex flex-col gap-4 md:hidden">
+          <div class="flex flex-row gap-2 items-left">
+            <button class="bg-gray-800 w-10 h-10 rounded-full">
+              <a href="#"
+                ><i class="fa-brands fa-instagram text-md text-white"></i
+              ></a>
+            </button>
+            <button class="bg-gray-800 w-10 h-10 rounded-full">
+              <a href="#"
+                ><i class="fa-brands fa-dribbble text-md text-white"></i
+              ></a>
+            </button>
+            <button class="bg-gray-800 w-10 h-10 rounded-full">
+              <a href="#"
+                ><i class="fa-brands fa-github text-md text-white"></i
+              ></a>
+            </button>
+            <button class="bg-gray-800 w-10 h-10 rounded-full">
+              <a href="#"
+                ><i class="fa-brands fa-linkedin text-md text-white"></i
+              ></a>
+            </button>
+          </div>
+          <h1 class="text-white text-sm">
+            © 2023 Anima’s Landing Page Ui Kit.
+          </h1>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
